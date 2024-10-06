@@ -1,13 +1,16 @@
 import React from "react";
-import { toast } from "react-toastify";
 
 export const Landing = () => {
-  const notify = () => toast("Wow so easy !");
-
   return (
     <div>
-      Landing
-      <button onClick={notify}>Notify !</button>
+      <h1>Landing Page</h1>
+      <p>
+        Velit enim irure sunt est sunt esse sint voluptate in aliqua cillum sunt
+        veniam commodo. Et culpa sit nostrud dolor sint laboris fugiat veniam
+        eiusmod. Deserunt et culpa ex incididunt magna laborum qui proident
+        consectetur laboris tempor. Incididunt culpa reprehenderit anim mollit
+        commodo ipsum.
+      </p>
     </div>
   );
 };
