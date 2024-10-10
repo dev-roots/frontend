@@ -13,3 +13,7 @@ export const login = async (user) => {
 export const register = (user) => {
   return authApi.post("register", user);
 };
+
+export const logout = () => { 
+  localStorage.removeItem("token");
+}
