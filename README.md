@@ -17,6 +17,24 @@ node -v
 > [!NOTE]
 > It is highly recommended to ask administrators for access to the environment files.
 
+### Environment files
+
+Ensure that you have the environment files `.env.development` and `.env.production` set up in the root directory of your project. These files are crucial for configuring different API base URLs for development and production environments.
+
+### Example Configuration:
+
+- Development (.env.development):
+
+```conf
+VITE_API_BASE_URL=https://localhost:7061/api
+```
+
+- Production (.env.production):
+
+```conf
+VITE_API_BASE_URL=https://your-production-url.com/api
+```
+
 ### Installation
 
 npm install
